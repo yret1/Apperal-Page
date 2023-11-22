@@ -18,6 +18,8 @@ const validOrNot = (() =>{
 
 
         if(inputValid){
+            error.innerText = "";
+            errorIcon.style.display ="none";
 
         }else{
             error.innerText = "Please provide a valid email"
